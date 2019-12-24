@@ -89,10 +89,10 @@ import numpy as np
 # Y.assign_add(X)
 # print(id(Y) == before)
 # tensor 和 NumPy 相互变换
-P = np.ones((2, 3), dtype=int)
-# NumPy实例变换成tensor实例。
-D = tf.constant(P)
-print(D)
-# 再将NDArray实例变换成NumPy实例
-np.array(D)
-print(np.array(D))
+# P = np.ones((2, 3), dtype=int)
+# # NumPy实例变换成tensor实例。
+# D = tf.constant(P)
+# print(D)
+# # 再将NDArray实例变换成NumPy实例
+# np.array(D)
+# print(np.array(D))
